@@ -51,7 +51,7 @@ To use the Currency Conversion API, follow these examples to confirm that your a
    - Expected Response (Failure - Invalid Currency or Rate):
    ```sh
     {
-    "msg": "Invalid currency or exchange rate"
+        "msg": "Invalid currency or exchange rate"
     } 
    ```
 
@@ -61,10 +61,10 @@ To use the Currency Conversion API, follow these examples to confirm that your a
    - Method: GET
    - Expected Response (Failure - Missing Query Parameters):
 
-      ```sh
-      {
-      "msg": "Please provide source, target, and amount"
-      } 
+    ```sh
+    {
+        "msg": "Please provide source, target, and amount"
+    } 
     ```
     
 ## Environment
